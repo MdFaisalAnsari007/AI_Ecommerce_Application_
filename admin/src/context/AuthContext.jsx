@@ -2,7 +2,7 @@ import React, { createContext } from 'react'
 
 export const authDataContext = createContext()
 function AuthContext({children}) {
-    let serverUrl = "https://ai-ecommerce-application-backend.onrender.com"
+    let serverUrl = "https://ai-ecommerce-application-backend1.onrender.com"
 
     let value = {
       serverUrl
